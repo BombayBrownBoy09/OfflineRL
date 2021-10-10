@@ -11,6 +11,7 @@ from .cql import CQL, DiscreteCQL
 from .crr import CRR
 from .ddpg import DDPG
 from .dqn import DQN, DoubleDQN
+from .edac import EDAC
 from .mopo import MOPO
 from .plas import PLAS, PLASWithPerturbation
 from .random_policy import DiscreteRandomPolicy, RandomPolicy
@@ -35,6 +36,7 @@ __all__ = [
     "DDPG",
     "DQN",
     "DoubleDQN",
+    "EDAC",
     "MOPO",
     "PLAS",
     "PLASWithPerturbation",
@@ -70,6 +72,7 @@ CONTINUOUS_ALGORITHMS: Dict[str, Type[AlgoBase]] = {
     "cql": CQL,
     "crr": CRR,
     "ddpg": DDPG,
+    "edac": EDAC,
     "mopo": MOPO,
     "plas": PLASWithPerturbation,
     "sac": SAC,
