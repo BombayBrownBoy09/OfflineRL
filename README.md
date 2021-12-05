@@ -25,4 +25,17 @@ https://colab.research.google.com/drive/1A0c9bYn5NHVb8dAwej83kPr-xtxrTQQZ?usp=sh
 ## installation
 d3rlpy supports Linux, macOS and Windows.
 
+1. clone this repository using - https://github.com/BombayBrownBoy09/OfflineRL.git
+2. Install - https://github.com/takuseno/d4rl-pybullet
+3. !pip install Cython numpy  and !pip install -e .
+4. Next we train CQl on default environment in d3rlpy (https://github.com/takuseno/d3rlpy) for 20 epochs folllowed by evaluation (True Q, Estimated Q and Average Reward)
+5. Train OPE (FQE) and evaluate using estimated Q alongside True Q  for FQE
 
+## Citation 
+d3rlpy: An Offline Deep Reinforcement Learning Library
+Doc - https://d3rlpy.readthedocs.io/en/v0.91/
+https://arxiv.org/abs/2111.03788
+
+# Offline RL examples 
+Here is a tutorial for a Toy Task - Line tracer for you to try
+https://colab.research.google.com/drive/1QpMMqVByz0U--fh-x_po9-Dgat9am9YU?usp=sharing
