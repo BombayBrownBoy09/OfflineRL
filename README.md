@@ -3,6 +3,11 @@ Assignment 3 - AIPI 530
 Access my Medium Article on Reinforcement Learning here: 
 https://medium.com/geekculture/reinforcement-learning-what-rewards-you-makes-you-stronger-9aa03ad9e0e
 
+Project link: 
+**Objective** Train CQL on d3rlpy dataset, and training OPE (FQE) for evaluation of trained policy
+https://colab.research.google.com/drive/1A0c9bYn5NHVb8dAwej83kPr-xtxrTQQZ?usp=sharing
+
+
 ### :zap: Most Practical RL Library Ever
 - **offline RL**: d3rlpy supports state-of-the-art offline RL algorithms. Offline RL is extremely powerful when the online interaction is not feasible during training (e.g. robotics, medical).
 - **online RL**: d3rlpy also supports conventional state-of-the-art online training algorithms without any compromising, which means that you can solve any kinds of RL problems only with `d3rlpy`.
@@ -19,4 +24,5 @@ https://medium.com/geekculture/reinforcement-learning-what-rewards-you-makes-you
 
 ## installation
 d3rlpy supports Linux, macOS and Windows.
+
 
