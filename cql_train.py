@@ -12,11 +12,6 @@ from d3rlpy.metrics.scorer import soft_opc_scorer
 from d3rlpy.metrics.scorer import true_q_value_scorer
 from d3rlpy.ope import FQE
 
-
-########################################################
-# Author: Shyamal H Anadkat | AIPI530 | Fall 2021      #
-########################################################
-
 def main(args):
     # returns pybullet dataset and environment (dataset being passed in args)
     dataset, env = get_pybullet(args.dataset)
@@ -29,7 +24,7 @@ def main(args):
 
     encoder = d3rlpy.models.encoders.VectorEncoderFactory([256, 256, 256])
 
-    # set conservative weight
+    # set weights
     if "medium-v0" in args.dataset:
         conservative_weight = 10.0
     else:
@@ -37,7 +32,7 @@ def main(args):
 
     device = None if args.gpu is None else Device(args.gpu)
 
-    # logging for debugging
+    # add logs
     print("=========================")
     print("Q FUNQ :  ", args.q_func)
     print("USE GPU : ", device)
@@ -46,7 +41,7 @@ def main(args):
     print("EPOCHS (FQE) : ", args.epochs_fqe)
     print("=========================")
 
-    # Train CQL on given environment/dataset from pybullet (default is hopper-bullet-mixed-v0)
+    # Train CQL from pybullet  - hopper-bullet-mixed-v0
 
     cql = CQL(actor_learning_rate=1e-4,
               critic_learning_rate=3e-4,
@@ -64,11 +59,11 @@ def main(args):
             n_epochs=args.epochs_cql,
             save_interval=10,
             scorers={
-                # Returns scorer function of evaluation on environment (mean_episode_return)
-                # Average reward vs training steps
+                # Returns scorer function post evaluation (mean_episode_return)
+                # Avg reward vs training steps
                 'environment': evaluate_on_environment(env),
 
-                # Returns mean estimated action-values at the initial states
+                # Returns mean estimated action-values at initial state
                 # Estimated Q vs training steps
                 'init_value': initial_state_value_estimation_scorer,
 
@@ -77,7 +72,7 @@ def main(args):
                 "true_q_value": true_q_value_scorer
             },
 
-            # log files are consistently named without timestamp (allows overwriting)
+            # log files are consistently named without timestamp 
             with_timestamp=False,
             verbose=True,
             experiment_name=f"CQL_{args.dataset}_{args.seed}")
@@ -105,7 +100,7 @@ def main(args):
                 "true_q_value": true_q_value_scorer
             },
 
-            # log files are consistently named without timestamp (allows overwriting)
+            # name without timestamp
             with_timestamp=False,
             verbose=True,
             experiment_name=f"FQE_{args.dataset}_{args.seed}")
@@ -118,8 +113,8 @@ if __name__ == '__main__':
                         default='hopper-bullet-mixed-v0')
 
     parser.add_argument('--seed', type=int, default=1)
-    parser.add_argument('--epochs_cql', type=int, default=10)  # epochs for cql being passed in as arg
-    parser.add_argument('--epochs_fqe', type=int, default=10)  # epochs for fqe being passed in as arg
+    parser.add_argument('--epochs_cql', type=int, default=10)  # cql epochs
+    parser.add_argument('--epochs_fqe', type=int, default=10)  # fqe epochs 
     parser.add_argument('--q-func',
                         type=str,
                         default='mean',
