@@ -38,6 +38,7 @@ https://arxiv.org/abs/2111.03788
 
 # Offline RL examples 
 Here is a tutorial for a Toy Task - Line tracer for you to try
+
 https://colab.research.google.com/drive/1QpMMqVByz0U--fh-x_po9-Dgat9am9YU?usp=sharing
 
 Here, we:
@@ -46,3 +47,4 @@ b. Generate a dataset and visualize it by sampling random action
 c. Setup and train CQL offline RL algorithm along with dataset from d3rlpy
 d. Plot trajectory of RL model that traces the original line
 
+Thank you!
