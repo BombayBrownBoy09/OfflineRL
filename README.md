@@ -32,9 +32,10 @@ d3rlpy supports Linux, macOS and Windows.
 5. Train OPE (FQE) and evaluate using estimated Q alongside True Q  for FQE
 
 ## Citation 
-d3rlpy: An Offline Deep Reinforcement Learning Library
-Doc - https://d3rlpy.readthedocs.io/en/v0.91/
-https://arxiv.org/abs/2111.03788
+d3rlpy: An Offline Deep Reinforcement Learning Library important links
+
+## https://d3rlpy.readthedocs.io/en/v0.91/
+## https://arxiv.org/abs/2111.03788
 
 # Offline RL examples 
 Here is a tutorial for a Toy Task - Line tracer for you to try
