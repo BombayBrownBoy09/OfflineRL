@@ -47,4 +47,4 @@ b. Generate a dataset and visualize it by sampling random action
 c. Setup and train CQL offline RL algorithm along with dataset from d3rlpy
 d. Plot trajectory of RL model that traces the original line
 
-Thank you!
+Easy to use!
