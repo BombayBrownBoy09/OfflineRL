@@ -42,15 +42,15 @@ d3rlpy supports Linux, macOS and Windows.
 ## Citation 
 
 The paper is available [here](https://arxiv.org/abs/2111.03788).
+[Documentation](https://d3rlpy.readthedocs.io/en/v0.91/)
+[know more](https://arxiv.org/abs/2111.03788)
 ```
 @InProceedings{seno2021d3rlpy,
   author = {Takuma Seno, Michita Imai},
   title = {d3rlpy: An Offline Deep Reinforcement Library},
   booktitle = {NeurIPS 2021 Offline Reinforcement Learning Workshop},
   month = {December},
-  year = {2021},
-  documentation = {https://d3rlpy.readthedocs.io/en/v0.91/},
-  more = {https://arxiv.org/abs/2111.03788}
+  year = {2021}
 }
 ```
 
