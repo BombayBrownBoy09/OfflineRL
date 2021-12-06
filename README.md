@@ -8,6 +8,11 @@ Project link:
 **Objective** Train CQL on d3rlpy dataset, and training OPE (FQE) for evaluation of trained policy
 https://colab.research.google.com/drive/1A0c9bYn5NHVb8dAwej83kPr-xtxrTQQZ?usp=sharing
 
+![image](https://user-images.githubusercontent.com/67541365/144878386-c89acac5-3038-4a7d-a963-05f710fe5bc1.png)
+TRAINED CQL PLOTS 
+
+![image](https://user-images.githubusercontent.com/67541365/144878660-dad69a58-209d-4047-9bcd-52aaff6b3f52.png)
+TRAINED OPE(FQE) PLOTS
 
 ### :zap: Most Practical RL Library Ever
 - **offline RL**: d3rlpy supports state-of-the-art offline RL algorithms. Offline RL is extremely powerful when the online interaction is not feasible during training (e.g. robotics, medical).
@@ -35,8 +40,8 @@ d3rlpy supports Linux, macOS and Windows.
 ## Citation 
 d3rlpy: An Offline Deep Reinforcement Learning Library important links
 
-## https://d3rlpy.readthedocs.io/en/v0.91/
-## https://arxiv.org/abs/2111.03788
+https://d3rlpy.readthedocs.io/en/v0.91/
+https://arxiv.org/abs/2111.03788
 
 # Offline RL examples 
 Here is a tutorial for a Toy Task - Line tracer for you to try
@@ -49,4 +54,4 @@ b. Generate a dataset and visualize it by sampling random action
 c. Setup and train CQL offline RL algorithm along with dataset from d3rlpy
 d. Plot trajectory of RL model that traces the original line
 
-Easy to use!
+Easy to use, right?
