@@ -59,7 +59,7 @@ d3rlpy [Documentation](https://d3rlpy.readthedocs.io/en/v0.91/)
 # Offline RL examples 
 Here is a tutorial for a Toy Task - Line tracer for you to try
 
-https://colab.research.google.com/drive/1QpMMqVByz0U--fh-x_po9-Dgat9am9YU?usp=sharing
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QpMMqVByz0U--fh-x_po9-Dgat9am9YU?usp=sharing)
 
 Here, we:
 a. Make an Original Environment (setup state and reward calculations)
