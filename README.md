@@ -43,7 +43,7 @@ d3rlpy supports Linux, macOS and Windows.
 
 The paper is available [here](https://arxiv.org/abs/2111.03788).
 
-d3rlpy[Documentation](https://d3rlpy.readthedocs.io/en/v0.91/)
+d3rlpy [Documentation](https://d3rlpy.readthedocs.io/en/v0.91/)
 
 [know more..](https://arxiv.org/abs/2111.03788)
 ```
