@@ -31,7 +31,7 @@ Project link:
 - **many tweek options**: d3rlpy is also the first to support N-step TD backup and ensemble value functions in the all algorithms, which lead you to the place no one ever reached yet.
 
 
-## installation
+## Installation
 d3rlpy supports Linux, macOS and Windows.
 
 1. clone this repository using - https://github.com/BombayBrownBoy09/OfflineRL.git
