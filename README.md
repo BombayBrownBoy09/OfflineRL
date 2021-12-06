@@ -10,7 +10,7 @@ https://colab.research.google.com/drive/1A0c9bYn5NHVb8dAwej83kPr-xtxrTQQZ?usp=sh
 
 ![image](https://user-images.githubusercontent.com/67541365/144878386-c89acac5-3038-4a7d-a963-05f710fe5bc1.png)
 
-**TRAINED CQL PLOTS** 
+**TRAINED CQL PLOT** 
 
 ![image](https://user-images.githubusercontent.com/67541365/144878660-dad69a58-209d-4047-9bcd-52aaff6b3f52.png)
 
