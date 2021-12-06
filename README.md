@@ -1,6 +1,7 @@
 ## Assignment 3 (building a pipeline for offline RL) - AIPI 530
 
 Access my Medium Article on Reinforcement Learning here: 
+
 https://medium.com/geekculture/reinforcement-learning-what-rewards-you-makes-you-stronger-9aa03ad9e0e
 
 Project link: 
