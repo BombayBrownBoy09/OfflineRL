@@ -6,7 +6,7 @@ https://medium.com/geekculture/reinforcement-learning-what-rewards-you-makes-you
 
 Project link: 
 **Objective** Train CQL on d3rlpy dataset, and training OPE (FQE) for evaluation of trained policy
-https://colab.research.google.com/drive/1A0c9bYn5NHVb8dAwej83kPr-xtxrTQQZ?usp=sharing
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A0c9bYn5NHVb8dAwej83kPr-xtxrTQQZ?usp=sharing)
 
 ![image](https://user-images.githubusercontent.com/67541365/144878386-c89acac5-3038-4a7d-a963-05f710fe5bc1.png)
 
