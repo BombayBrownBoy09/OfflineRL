@@ -43,7 +43,7 @@ d3rlpy supports Linux, macOS and Windows.
 
 The paper is available [here](https://arxiv.org/abs/2111.03788).
 
-[Documentation](https://d3rlpy.readthedocs.io/en/v0.91/)
+d3rlpy[Documentation](https://d3rlpy.readthedocs.io/en/v0.91/)
 
 [know more..](https://arxiv.org/abs/2111.03788)
 ```
@@ -55,8 +55,6 @@ The paper is available [here](https://arxiv.org/abs/2111.03788).
   year = {2021}
 }
 ```
-
-d3rlpy: An Offline Deep Reinforcement Learning Library important links
 
 # Offline RL examples 
 Here is a tutorial for a Toy Task - Line tracer for you to try
