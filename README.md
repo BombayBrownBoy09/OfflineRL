@@ -2,7 +2,7 @@
 
 Access my Medium Article on Reinforcement Learning here: 
 
-![Medium Article](https://medium.com/geekculture/reinforcement-learning-what-rewards-you-makes-you-stronger-9aa03ad9e0e)
+![Reinforcement Learning - What reards you, makes you stronger](https://medium.com/geekculture/reinforcement-learning-what-rewards-you-makes-you-stronger-9aa03ad9e0e)
 
 Project link: 
 **Objective** Train CQL on d3rlpy dataset, and training OPE (FQE) for evaluation of trained policy
